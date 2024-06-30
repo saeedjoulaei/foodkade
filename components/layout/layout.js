@@ -9,7 +9,7 @@ function Layout({ children }) {
         </div>
         <div className={styles.right}>
           <Link href={"/menu"}>Menu</Link>
-          <Link href={"/categories"}>Ctegories</Link>
+          <Link href={"/categories"}>Categories</Link>
         </div>
       </header>
       <div className={styles.container}>{children}</div>
